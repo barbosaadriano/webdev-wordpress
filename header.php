@@ -22,12 +22,12 @@ define("URL", $pasta);
 
         <?php wp_head(); ?>
     </head>
-    <body>
+    <body <?php body_class(); ?>>
         <header>
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-3">
-                        <a href="index.php" title="página inicial">
+                        <a href="<?php bloginfo("url"); ?>/index.php" title="página inicial">
                             <?php
                             if (function_exists('has_custom_logo') 
                                     && has_custom_logo()) :
