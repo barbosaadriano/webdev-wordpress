@@ -19,12 +19,12 @@ if (have_posts()) :
                     <p><?php the_excerpt(); ?></p>
                     <a href="<?php the_permalink(); ?>"
                        title="<?php the_title(); ?>"
-                       class="btn btn-success">ver postagem</a>
+                       class="btn btn-success">ver postagem
+                    </a>
                 </article>
             </div>
         <?php
         endif;
     endwhile;
 endif;
-get_sidebar();
 get_footer();

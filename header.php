@@ -29,8 +29,7 @@ define("URL", $pasta);
                     <div class="col-md-3 col-sm-3">
                         <a href="<?php bloginfo("url"); ?>/index.php" title="página inicial">
                             <?php
-                            if (function_exists('has_custom_logo') 
-                                    && has_custom_logo()) :
+                            if (function_exists('has_custom_logo') && has_custom_logo()) :
                                 the_custom_logo();
                             else :
                                 bloginfo("name");
@@ -39,11 +38,12 @@ define("URL", $pasta);
                         </a>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                        <?php 
-                            wp_nav_menu( array('theme_location'=>
-                                'primary') );
+                        <?php
+                        wp_nav_menu(array('theme_location' =>
+                            'primary'));
                         ?>                        
                     </div>
                 </div>
             </div>
         </header>
+
