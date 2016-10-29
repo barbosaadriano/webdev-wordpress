@@ -1,0 +1,52 @@
+/*
+Theme Name: Novo Tema
+Theme URI: http://www.professorburnes.com/
+Author: Professor Burnes
+Description: Tema para Wordpress
+License: GNU General Public License v2 or later
+Tags: tema, livre, teste, wordpress
+*/
+
+.menu-principal-container {
+	float: right;
+	margin-top: 30px;
+}
+
+.menu-principal-container ul li {
+	display: inline;
+	list-style: none;
+}
+
+.menu-principal-container ul li a {
+	padding: 10px;
+	color: #F00;
+	text-decoration: none;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #fff;
+	background: #f00;
+}
+
+.footer {
+	width: 50%;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	padding: 10px 0px;
+	background: #F00;
+	margin-top: 10px;
+}
+
+.cycle-slideshow { margin-top: 50px; }
+
+.cycle-slideshow,.cycle-slide, .cycle-slide img { width: 100% !important; }
+
+.produtos ul li {
+	display: inline;
+	width: 33%;
+	float: left;
+	list-style: none;
+}
